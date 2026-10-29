@@ -1,0 +1,11 @@
+# command ==> expected
+go forward for 4 seconds ==> move forward 4
+go forward for 4 seconds then turn left 60 degrees ==> move forward 4 | turn left 60
+go forward 4 seconds, turn right 90 degrees, then go forward 2 seconds ==> move forward 4 | turn right 90 | move forward 2
+move backward 3 seconds ==> move backward 3
+turn right 45 degrees then move backward 2 seconds ==> turn right 45 | move backward 2
+turn left ==> turn left 90
+turn 45 degrees ==> none
+go forward for 4 seconds, then take a 60 degree turn and go straight ==> none
+what is the weather ==> none
+hello ==> none

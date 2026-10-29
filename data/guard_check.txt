@@ -1,0 +1,6 @@
+turn 45 degrees ==> none
+go forward for 4 seconds then take a 60 degree turn ==> none
+turn left 45 degrees right away ==> turn left 45
+turn 45 degrees right away ==> none
+go forward 3 seconds then turn right 90 degrees ==> move forward 3 | turn right 90
+what is the weather ==> none
