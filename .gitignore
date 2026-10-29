@@ -2,7 +2,7 @@
 model/
 
 # Upstream Cactus Python package, cloned for reference only
-needle/
+/needle/
 
 # Build output
 build/
@@ -13,8 +13,21 @@ esp32/*/managed_components/
 
 # Python
 .venv/
+.venv-*/
 __pycache__/
 *.pyc
+
+# Trained model checkpoints and snapshots (large binaries)
+*.cact
+*.pkl
+checkpoints/
+
+# Backup and scratch files
+*.bak
+*.bak[0-9]*
+
+# Cache
+.cache/
 
 # macOS
 .DS_Store
