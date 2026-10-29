@@ -12,8 +12,7 @@ host tools that this fork starts from.
 
 **Used unchanged:** `engine/`, `host/`, `esp32/led_probe/`, `esp32/psram_test/`,
 `esp32/needle_demo/` (apart from the files listed below), `tools/check_engine.py`,
-`tools/check_tokenizer.py`, `tools/ref_forward.py`, `tools/mon.py`,
-`needle_demo.gif`, `LICENSE`.
+`tools/check_tokenizer.py`, `tools/ref_forward.py`, `tools/mon.py`, `LICENSE`.
 
 **Modified.** The source files (`main.c`, `main/CMakeLists.txt`,
 `needle_tui.py`) also carry a change notice at the top:
@@ -45,6 +44,9 @@ fine-tuning both come from Cactus Compute. A fine-tuned `.cact` built with
 `car/needle_car/needle_car.ino`, `tools/make_dataset.py`,
 `tools/make_same_style_test.py`, `tools/eval_serial.py`,
 `tools/analyze_results.py`, everything in `data/`, `results/`, `training/` and
-`docs/`, and this file.
+`docs/`, the demo video `project.mp4`, and this file.
+
+The upstream LED demo GIF (`needle_demo.gif`) has been removed; it is still in
+the upstream repository.
 
 Copyright 2026 Augrajit. Licensed under the Apache License, Version 2.0.

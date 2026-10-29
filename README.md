@@ -26,10 +26,10 @@ inference engine is unchanged. This fork adds:
 - **A LoRA fine-tune of Needle 2** for robot commands, with the dataset
   generator, test sets, evaluation scripts and the results from the board.
 
-![Needle 2 running on an ESP32-S3](needle_demo.gif)
+<video src="project.mp4" controls muted width="100%"></video>
 
-*The upstream LED demo. The car build uses the same terminal UI; each command
-takes ~40 s on the board.*
+**[Watch the demo video (project.mp4)](project.mp4)**: the car driven by typed
+commands. Each command takes ~40 s on the board.
 
 ## Results
 
