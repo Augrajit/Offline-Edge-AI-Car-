@@ -1,0 +1,7 @@
+command,expected,got,result,confidence,seconds,error
+turn 45 degrees,none,none,PASS,0.9966,16.5,
+go forward for 4 seconds then take a 60 degree turn,none,none,PASS,0.0,47.7,
+turn left 45 degrees right away,turn left 45,none,FAIL,0.9979,40.7,
+turn 45 degrees right away,none,none,PASS,0.0,26.2,
+go forward 3 seconds then turn right 90 degrees,move forward 3 | turn right 90,move forward 3 | turn right 90,PASS,1.0,44.1,
+what is the weather,none,none,PASS,1.0,8.7,

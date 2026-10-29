@@ -1,0 +1,11 @@
+command,expected,got,result,confidence,seconds,error
+go forward for 4 seconds,move forward 4,move forward 4,PASS,0.9999,24.9,
+go forward for 4 seconds then turn left 60 degrees,move forward 4 | turn left 60,move forward 4 | turn left 60,PASS,0.9929,49.1,
+"go forward 4 seconds, turn right 90 degrees, then go forward 2 seconds",move forward 4 | turn right 90 | move forward 2,move forward 4 | turn right 90 | move forward 2,PASS,0.9931,69.0,
+move backward 3 seconds,move backward 3,move backward 3,PASS,1.0,26.9,
+turn right 45 degrees then move backward 2 seconds,turn right 45 | move backward 2,turn right 45 | move backward 2,PASS,0.9976,47.7,
+turn left,none,turn left 90,FAIL,0.9981,8.6,
+turn 45 degrees,none,turn left 45,FAIL,0.1247,33.5,
+"go forward for 4 seconds, then take a 60 degree turn and go straight",none,move forward 4 | turn right 60 | move forward 1,FAIL,0.1056,67.5,
+what is the weather,none,none,PASS,0.9999,8.7,
+hello,none,none,PASS,0.9105,15.8,
