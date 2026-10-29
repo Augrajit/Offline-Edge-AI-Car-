@@ -1,3 +1,5 @@
+# Modified by <YOUR NAME>, 2026: added REQUIRES for esp_wifi, esp_netif,
+# esp_event, nvs_flash, esp_driver_uart (needed by ESP-NOW and wired link).
 # ---------------------------------------------------------------------------
 # The tool schema is generated into a header from the canonical JSON file, so
 # there is a single source of truth shared with the host tools.
@@ -17,5 +19,6 @@ set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${ND_SCHEMA_PATH
 
 idf_component_register(SRCS "main.c"
                        INCLUDE_DIRS "${CMAKE_CURRENT_BINARY_DIR}/generated"
-                       REQUIRES needle esp_driver_rmt esp_driver_gpio
-                                esp_partition esp_timer)
+                       REQUIRES needle esp_driver_rmt esp_driver_gpio esp_driver_uart
+                                esp_partition esp_timer esp_wifi esp_netif
+                                esp_event nvs_flash)

@@ -1,3 +1,6 @@
+# Modified by <YOUR NAME>, 2026: serial backend now waits for EVT turn_end
+# instead of the first ACT/ERR, so multi-step plans complete before the TUI
+# accepts the next command.
 #!/usr/bin/env python3
 """Needle 2 demo console.
 
@@ -144,7 +147,7 @@ class SerialBackend(Backend):
                 continue
             last = time.time()
             yield line
-            if line.startswith("ACT ") or line.startswith("ERR "):
+            if line.startswith("EVT turn_end"):
                 return
 
     def close(self):
