@@ -44,7 +44,8 @@ fine-tuning both come from Cactus Compute. A fine-tuned `.cact` built with
 `car/needle_car/needle_car.ino`, `tools/make_dataset.py`,
 `tools/make_same_style_test.py`, `tools/eval_serial.py`,
 `tools/analyze_results.py`, everything in `data/`, `results/`, `training/` and
-`docs/`, the demo video `project.mp4`, and this file.
+`docs/`, the demo video (hosted on GitHub, linked from the README), and this
+file.
 
 The upstream LED demo GIF (`needle_demo.gif`) has been removed; it is still in
 the upstream repository.

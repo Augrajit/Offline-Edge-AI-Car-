@@ -31,3 +31,6 @@ checkpoints/
 
 # macOS
 .DS_Store
+
+# Demo video (hosted as a GitHub attachment, see README)
+project.mp4

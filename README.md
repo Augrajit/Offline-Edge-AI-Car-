@@ -26,10 +26,9 @@ inference engine is unchanged. This fork adds:
 - **A LoRA fine-tune of Needle 2** for robot commands, with the dataset
   generator, test sets, evaluation scripts and the results from the board.
 
-<video src="project.mp4" controls muted width="100%"></video>
+https://github.com/user-attachments/assets/4debb346-4020-4a99-8cdb-54a1eabc3381
 
-**[Watch the demo video (project.mp4)](project.mp4)**: the car driven by typed
-commands. Each command takes ~40 s on the board.
+*The car driven by typed commands. Each command takes ~40 s on the board.*
 
 ## Results
 
