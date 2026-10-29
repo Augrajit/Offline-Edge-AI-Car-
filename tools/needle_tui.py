@@ -1,4 +1,4 @@
-# Modified by <YOUR NAME>, 2026: serial backend now waits for EVT turn_end
+# Modified by Augrajit, 2026: serial backend now waits for EVT turn_end
 # instead of the first ACT/ERR, so multi-step plans complete before the TUI
 # accepts the next command.
 #!/usr/bin/env python3

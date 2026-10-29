@@ -1,4 +1,4 @@
-# Modified by <YOUR NAME>, 2026: added REQUIRES for esp_wifi, esp_netif,
+# Modified by Augrajit, 2026: added REQUIRES for esp_wifi, esp_netif,
 # esp_event, nvs_flash, esp_driver_uart (needed by ESP-NOW and wired link).
 # ---------------------------------------------------------------------------
 # The tool schema is generated into a header from the canonical JSON file, so

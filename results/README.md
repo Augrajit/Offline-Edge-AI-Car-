@@ -24,6 +24,8 @@ generalisation. `test_same_style.txt` uses unseen sentences built from the
 training templates, so the gap between the two (78% vs 92%) is mostly
 phrasing, not task difficulty.
 
-The one guard-check failure is `turn left 45 degrees right away`: the model
-refused it (no calls), most likely treating "right" in "right away" as part of
-the command.
+The one guard-check failure is `turn left 45 degrees right away`, which came
+back with no calls instead of `turn left 45`.
+
+Timing (the `seconds` column, reasoning on) is 11–108 s per command, with a
+median of about 43 s; longer commands produce longer reasoning.

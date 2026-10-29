@@ -1,4 +1,4 @@
-/* Modified by <YOUR NAME>, 2026: replaced set_led tool with move/turn for
+/* Modified by Augrajit, 2026: replaced set_led tool with move/turn for
  * a two-board robot car; added ESP-NOW link to Board B, wired-UART fallback,
  * plan formatting, and increased MAX_NEW to 160. */
 /* Needle 2 on ESP32-S3: speech-shaped requests -> onboard RGB LED.
